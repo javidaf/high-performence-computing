@@ -1,0 +1,34 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "process",
+            "command": "cmd.exe",
+            "args": [
+                "/c",
+                "call ${env:LOCALAPPDATA}\\anaconda3\\Scripts\\activate.bat && conda activate c_hpc && scons --no-site-dir"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": "$gcc",
+            "options": {
+                "cwd": "${workspaceFolder}/high_performence_computing"
+            }
+        },
+        {
+            "label": "clean",
+            "type": "process",
+            "command": "cmd.exe",
+            "args": [
+                "/c",
+                "call ${env:LOCALAPPDATA}\\anaconda3\\Scripts\\activate.bat && conda activate c_hpc && scons -c --no-site-dir"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/high_performence_computing"
+            }
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Build and debug",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/high_performence_computing/build/program.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/high_performence_computing",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "C:/Users/javid.rezai/ConOptica/env/toolsets/mingw64-13.2.0-ConRev1/mingw64/bin/gdb.exe", 
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": false
+                }
+            ],
+            "preLaunchTask": "build"
+        },
+        {
+          "name": "debug",
+          "type": "cppdbg",
+          "request": "launch",
+          "program": "${workspaceFolder}/high_performence_computing/build/program.exe",
+          "args": [],
+          "stopAtEntry": false,
+          "cwd": "${workspaceFolder}/high_performence_computing",
+          "environment": [],
+          "externalConsole": false,
+          "MIMode": "gdb",
+          "miDebuggerPath": "C:/Users/javid.rezai/ConOptica/env/toolsets/mingw64-13.2.0-ConRev1/mingw64/bin/gdb.exe", 
+          "setupCommands": [
+              {
+                  "description": "Enable pretty-printing for gdb",
+                  "text": "-enable-pretty-printing",
+                  "ignoreFailures": true
+              }
+          ],
+      }
+    ]
+}

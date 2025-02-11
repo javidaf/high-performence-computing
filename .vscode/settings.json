@@ -1,0 +1,16 @@
+{
+    "boost-test-adapter-robaho.tests": [
+        {
+            "testExecutables": [
+                {
+                    "glob": "**/*{_test,_test.exe}"
+                }
+            ],
+            "debugConfig": "Test Config"
+        }
+    ],
+    "C_Cpp.default.compilerPath": "C:/Users/javid.rezai/ConOptica/env/toolsets/mingw64-13.2.0-ConRev1/mingw64/bin/gcc.exe",
+    "terminal.integrated.env.windows": {
+        "PATH": "${env:PATH};C:/Users/javid.rezai/ConOptica/env/toolsets/mingw64-13.2.0-ConRev1/mingw64/bin"
+    }
+}
