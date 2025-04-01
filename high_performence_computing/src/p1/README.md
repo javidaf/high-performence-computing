@@ -4,7 +4,7 @@ This project implements the PageRank algorithm for computing importance scores o
 
 ## Compilation
 
-This project uses SCons for building. Read about compilation in [Here](high_performence_computing/README.md).
+This project uses SCons for building. Read about compilation in [Here](../../README.md).
 
 ## Usage
 
