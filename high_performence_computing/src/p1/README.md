@@ -4,13 +4,7 @@ This project implements the PageRank algorithm for computing importance scores o
 
 ## Compilation
 
-This project uses SCons for building. To compile the code, run:
-
-```bash
-scons
-```
-
-This will build both the serial and parallel versions of the PageRank program.
+This project uses SCons for building. Read about compilation in [Here](high_performence_computing/README.md).
 
 ## Usage
 

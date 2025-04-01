@@ -42,9 +42,13 @@ scons -c
 ```
 
 ## Running the Program
-```bash
-./build/program
-```
+
+More information about running each program can be found the `README.md` file in each project number subdirectory.
+### Project 1
+For project 1, visit [Project 1](src\p1\README.md)
+
+### Project 2
+Not implemented yet
 
 ## Alternative
 Alternatively, setup vscode build task to run the build and run the program
